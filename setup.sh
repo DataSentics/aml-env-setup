@@ -11,3 +11,7 @@ cp -r bin ~/.local/
 
 # Set the user-defined PATH
 fish -c 'set -U fish_user_paths /home/azureuser/.local/bin'
+
+# set the preferred editor
+fish -c 'set -Ux EDITOR nvim'
+
