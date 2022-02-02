@@ -1,7 +1,13 @@
 #!/bin/bash
 
 # Installing useful packages
-sudo apt -y install fish ranger tmux neovim sl
+sudo apt -y install ranger tmux neovim sl
+
+# Install last version of fish
+# Issue https://github.com/conda/conda/issues/11079
+sudo apt-add-repository -y ppa:fish-shell/release-3
+sudo apt -y update
+sudo apt -y install fish
 
 echo "Copy dotfiles..."
 cp -r dotfiles/. ~/.config/
