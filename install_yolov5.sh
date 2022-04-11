@@ -4,6 +4,7 @@ echo "Installing YOLOv5..."
 # show each executed command
 set -x
 
+cd /home/azureuser
 # create conda environment
 source $(conda info --base)/etc/profile.d/conda.sh
 conda create -n yolov5 python=3.8
