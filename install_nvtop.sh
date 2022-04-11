@@ -3,6 +3,7 @@
 echo "Installing NVTOP"
 echo "workdir: $PWD"
 
+conda deactivate
 sudo apt install cmake libncurses5-dev libncursesw5-dev
 git clone https://github.com/Syllo/nvtop.git
 mkdir -p nvtop/build

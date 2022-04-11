@@ -1,5 +1,6 @@
 #!/bin/bash
 
+conda deactivate
 # Installing useful packages
 sudo apt -y install ranger tmux neovim sl
 
