@@ -1,5 +1,8 @@
 #!/bin/bash
-set -xe
+
+echo "Installing YOLOv5..."
+# show each executed command
+set -x
 
 # create conda environment
 source $(conda info --base)/etc/profile.d/conda.sh
