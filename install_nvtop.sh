@@ -3,7 +3,7 @@
 echo "Installing NVTOP"
 echo "workdir: $PWD"
 
-source (conda info --base)/etc/profile.d/conda.sh
+source $(conda info --base)/etc/profile.d/conda.sh
 conda activate base
 
 sudo apt install cmake libncurses5-dev libncursesw5-dev
