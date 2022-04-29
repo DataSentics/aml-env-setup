@@ -5,7 +5,7 @@ set -ex
 
 sudo -u azureuser -i <<'EOF'
 
-git clone "https://github.com/jakubhejhal/aml-env-setup"
+git clone "https://github.com/DataSentics/aml-env-setup.git"
 cd aml-env-setup
 
 echo "pwd: $(pwd)"
